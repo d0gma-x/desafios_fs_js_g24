@@ -3,25 +3,24 @@ body{
 }
 
 .header{
-    height: 8em;
+    height: 8rem;
     background-image: url("/CSS/desafio_css/assets/img/fondo_header.jpg");
-    /*background-size: center;*/
     background-position: center;
     padding: 1rem;
-    color: black;
+    color: #000000;
     border-bottom: 10px solid #C70039;
     text-align: center;
 }
 
 .header h1{
     padding: 1rem;
-    margin: 0px;
+    margin: auto;
     font-size: 3rem;
 }
 
 .p_header{
     font-size: 1.5rem;
-    margin: 0px;
+    margin: auto;
 }
 
 .productos{
@@ -29,21 +28,54 @@ body{
     margin: auto;
 }
 
+.title_product{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5rem;
+}
+
 .productos td{
     width: 50%;
-    padding: 2em;
+    padding: 2rem;
+}
+
+.p_description{
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5rem;
 }
 
 .productos img{
     width: 100%;
-    border: solid 1px #ddd;
+    border-bottom: 4px solid #C70039;
+    border-right: 2px solid #C70039;
+}
+
+.price{
+    margin: auto;
+    padding: 0.5rem;
 }
 
 .footer{
-    height: 3em;
-    line-height: 3em;
+    height: 5em;
+    line-height: 5em;
     background-color: #C70039;
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-weight: 900;
 }
+
+.footer p{
+    padding: 0px;;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    border-bottom: 1.5px solid #ffffff;
+  }
