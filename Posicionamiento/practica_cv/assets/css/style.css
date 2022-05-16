@@ -1,0 +1,136 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 8rem;
+    background-image: url("/Posicionamiento/practica_cv/assets/img/fondo_header.jpg");
+    background-position: center;
+    padding: 1rem;
+    color: #000000;
+    border-bottom: 10px solid #72BF4E;
+    text-align: center;
+}
+
+header h1{
+    padding: 1rem; /*padding: all;*/
+    margin: auto;
+    font-size: 3rem;
+}
+
+.p_header{
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+nav{
+    background-color: #BF1151;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+nav li{
+    display: inline-block;
+}
+
+ul{
+    margin: 0px;
+}
+
+nav a{
+    color: black;
+    margin: 0px 20px 0px; /*margin: top left&righ bottom;*/
+}
+
+nav a:hover {
+    border-bottom: 1.5px solid black;
+}
+
+.productos{
+    width: 80%;
+    margin: auto;
+}
+
+.title_product{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5rem;
+    border-bottom: 2px solid #72BF4E;
+}
+
+.productos td{
+    width: 50%;
+    padding: 2rem;
+}
+
+.p_description{
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.p_description_2{
+    margin: 0px 0px 12px; /*margin: top left&right bottom;*/
+}
+
+.productos img{
+    width: 100%;
+    border-bottom: 4px solid #BF1151;
+    border-right: 2px solid #BF1151;
+}
+
+.price{
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.features{
+    width: 90%;
+    text-align: center;
+    margin: 1em 2em;
+    border: 1px solid #333;
+    padding: 1em;
+    color: #333;
+    background-color: gainsboro;
+}
+
+.features i{
+    display: block;
+    padding: 0.5em;
+}
+
+.feature{
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.feature h2{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer{
+    height: 5em;
+    line-height: 5em;
+    background-color: #BF1151;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+}
+
+footer p{
+    padding: 0px;;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    border-bottom: 1.5px solid #ffffff;
+}
