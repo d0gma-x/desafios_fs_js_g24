@@ -88,7 +88,7 @@ nav a:hover {
 .features{
     width: 90%;
     text-align: center;
-    margin: 1em 2em;
+    margin: 1em 2em; /*margin: top&bottom left&right;*/
     border: 1px solid #333;
     padding: 1em;
     color: #333;
