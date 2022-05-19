@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 3rem;
+}
+header img{
+    display: inline;
+}
+section{
+    border: 2px solid red;
+    display: flow-root;
+    height: 21rem;
+}
+
+section p{
+    width: 49%;
+    float: left;
+}
+
+section img{
+    width: 49%;
+    float: right;
+    width: 400px;
+    height: 250px;
+}
+
+.resumen{
+    background-color: #000000;
+    color: white;
+}
+
+footer{
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
