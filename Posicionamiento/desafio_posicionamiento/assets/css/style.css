@@ -12,38 +12,79 @@ header{
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
-    line-height: 3rem;
 }
+
+header h1{
+    padding: 1rem;
+}
+
 header img{
-    display: inline;
+    width: 100%;
 }
-section{
-    border: 2px solid red;
+
+.info-iguana{
+    align-items: center;
     display: flow-root;
-    height: 21rem;
-}
-
-section p{
-    width: 49%;
-    float: left;
-}
-
-section img{
-    width: 49%;
-    float: right;
-    width: 400px;
-    height: 250px;
-}
-
-.resumen{
     background-color: #000000;
-    color: white;
+    color: #FFFFFF;
+    height: 22rem;
+}
+
+.info-iguana p{
+    width: 30%;
+    float: left;
+    font-size: 14px;
+    padding-top: 76px;
+    padding-left: 150px;
+}
+
+.info-iguana img{
+    float: right;
+    width: 25%;
+    padding-top: 45px;
+    padding-right: 150px;
+}
+
+.caracteristicas{
+    text-align: center;
+    padding: 75px 0 0;
+    color: #FFFFFF;
+    background-color: #1E1A13;
+}
+
+.caracteristicas i{
+    display: block;
+    padding: 0.5em;
+}
+
+.caracteristicas p{
+    font-size: 1.5rem;
+    padding: 0 0 75px;
+}
+
+.caracter{
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.galeria{
+    text-align: center;
+    background-color: #000000;
+    height: 22rem;
+}
+
+.galeria img{
+    width: 316px;
+    height: 202px;
+    padding: 73px 16px;
 }
 
 footer{
     background-color: #1E1A13;
     color: white;
     text-align: center;
-    height: 5rem;
-    line-height: 5rem;
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 20px;
 }
