@@ -5,3 +5,20 @@ body{
 .navbar{
     background-color: #28A745;
 }
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-text{
+    border-bottom: 1px solid red;
+}
+
+.precio-oferta{
+    color: #28A745; 
+}
+
+form{
+    background-color: #28A745;
+}
