@@ -5,3 +5,5 @@
 - 07-05-2022 Se crea el primer commit, adjuntando desde el directorio de trabajo el desafio correspondiente al modulo de html "practica cv"
 
 - 13-05-2022 Se adjunta desde directorio de trabajo el desafio correspondiente al modulo de css "Construyendo un landing page" y se corrigen errores de organización de carpetas
+
+- 20-05-2022 Actualización de "Desafío 3 Iguana Page"
