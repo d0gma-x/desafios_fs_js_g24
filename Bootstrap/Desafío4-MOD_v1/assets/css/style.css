@@ -16,9 +16,8 @@ body{
     height: auto;
 }
 
-.c-footer{
-    border-bottom: 1px solid #707070;
-    font-size: 13px;
+.card-text{
+    border-bottom: 1px solid red;
 }
 
 .precio-normal{
