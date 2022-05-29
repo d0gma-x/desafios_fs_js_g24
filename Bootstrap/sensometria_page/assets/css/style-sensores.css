@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    border-bottom: 6px solid #023E73;
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+/* 
+.card img{
+    width: 100%;
+    height: auto;
+} */
+
+.c-description{
+    font-size: 13px;
+}
+
+.c-type-data{
+    border-top: 2px solid #F2C063;
+    list-style: none;
+    font-size: 13px;
+}
+
+.tutorial-link a{
+    text-decoration: none;
+    color: #023E73;
+}
+
+footer{
+    border-top: 6px solid #023E73;
+}

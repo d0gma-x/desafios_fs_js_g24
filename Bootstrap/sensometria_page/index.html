@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SensData - Inicio</title>
+
+    <!--style.css-->
+    <link
+      rel="stylesheet"
+      href="/Bootstrap/sensometria_page/assets/css/style.css"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/d8cbee51cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand m-0 ps-4 py-0" href="#">
+          <img
+            src="/Bootstrap/sensometria_page/assets/img/logo.png"
+            alt="logo-navbar"
+            width="auto"
+            height="60"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-dark fw-bold"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark-50">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Card -->
+    <div class="container-fluid">
+      <div class="row mx-auto">
+        <!-- col 1 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/bme280.jpg"
+              class="card-img-top"
+              alt="bme280"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BME280</h5>
+              <p class="card-text c-description mb-2">
+                El BME280 integra en un solo dispositivo sensores de presión atmosférica, temperatura y humedad relativa, con gran precisión y bajo consumo energético. Se conecta directamente a un microcontrolador a través de I2C o SPI.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-snowflake"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Temperatura</div>
+                  <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Humedad</div>
+                  <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Presión</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="/Bootstrap/sensometria_page/bme280.html">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 2 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/ml8511.jpg"
+              class="card-img-top"
+              alt="ml8511"
+            />
+            <div class="card-body">
+              <h5 class="card-title">ML8511</h5>
+              <p class="card-text c-description mb-2">
+                El sensor de luz ultravioleta ML8511 emite un voltaje analógico relacionado linealmente con la intensidad UV medida (mW / cm2). Mediante una conversión de señal analógica a digital, entonces puedes detectar el nivel de UV.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-sun"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Indice UV</div>
+                  <!-- <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Humedad</div>
+                  <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Presión</div> -->
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 3 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/capacitive_soil.jpg"
+              class="card-img-top"
+              alt="capacitive_soil"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Capacitive Soil</h5>
+              <p class="card-text c-description mb-2">
+                Permite medir la humedad de la tierra gracias a la conductividad del agua. Mientras mayor es la presencia de agua en la tierra mayor es la conductividad, reduciendo la resistencia entre los dos terminales enterrados del sensor y viceversa. Es utilizado principalmente en jardinería con riego automático para sensar cuándo el sueldo o la tierra necesitan más riego.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Humedad</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 4 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/anemometro_analogico.jpg"
+              class="card-img-top"
+              alt="anemometro_analogico"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Anemometro Analogico</h5>
+              <p class="card-text c-description mb-2">
+                Este anemómetro es un sensor para medir la velocidad del viento con salida de voltaje analógico, es decir el voltaje cambia a medida que la velocidad del viento se incrementa, cuando no hay viento la salida es de 0.4V! ten esto en cuenta ya que así puedes saber si hay alguna desconexión!
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-wind"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Velocidad de Viento</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 5 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/dht22.jpg"
+              class="card-img-top"
+              alt="dht22"
+            />
+            <div class="card-body">
+              <h5 class="card-title">DHT22</h5>
+              <p class="card-text c-description mb-2">
+                El DHT22 Sensor digital de temperatura y humedad. Utiliza un sensor capacitivo de humedad y un termistor para medir el aire circundante.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-snowflake"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Temperatura</div>
+                  <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Humedad</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 6 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/ds18b20.jpg"
+              class="card-img-top"
+              alt="ds18b20"
+            />
+            <div class="card-body">
+              <h5 class="card-title">DS18B20</h5>
+              <p class="card-text c-description mb-2">
+                El sensor DS18B20 permite medir temperaturas de hasta 125ºC de forma fácil y además está sellado en un envoltorio estanco que permite sumergirlo en un líquido o pretegerlo de la intempérie.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-snowflake"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Temperatura</div>
+                  </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 7 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/mpu6050.jpg"
+              class="card-img-top"
+              alt="mpu6050"
+            />
+            <div class="card-body">
+              <h5 class="card-title">MPU6050</h5>
+              <p class="card-text c-description mb-2">
+                EL MPU6050 es una unidad de medición inercial o IMU (Inertial Measurment Units) de 6 grados de libertad (DoF) pues combina un acelerómetro de 3 ejes y un giroscopio de 3 ejes. Este sensor es muy utilizado en navegación, goniometría, estabilización, etc.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-maximize"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Acelerometro</div>
+                  <div class="w-100"></div>
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-arrows-spin"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">Giroscopio</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 8 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/sds011.jpg"
+              class="card-img-top"
+              alt="sds011"
+            />
+            <div class="card-body">
+              <h5 class="card-title">SDS011</h5>
+              <p class="card-text c-description mb-2">
+                Sensor de calidad de aire con alta precisión  cuyo SDS011 utiliza la dispersión láser para detectar concentración de partículas entre 0,3 y 10 um en el aire.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-smog"></i>
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">PM2.5 y PM10</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col 9 -->
+        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
+          <div class="card" style="width: 100%">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/sds198.jpg"
+              class="card-img-top"
+              alt="sds198"
+            />
+            <div class="card-body">
+              <h5 class="card-title">SDS198</h5>
+              <p class="card-text c-description mb-2">
+                El sensor PM100, también conocido como sensor total de partículas suspendidas (TSP), utilizando el principio de dispersión láser, puede obtener una concentración de partículas entre 1 y 100μm en el aire.
+              </p>
+              <div class="container">
+                <div class="row card-text c-type-data pt-2 ps-0">
+                  <div class="col-1 p-0 m-0 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-smog"></i>                                      
+                  </div>
+                  <div class="col-6 p-0 ms-2 my-0">PM100</div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <div class="col-4 p-0 tutorial-link">
+                  <a href="#">Ir al Tutorial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid pt-3 text-center">
+        <img
+          src="/Bootstrap/sensometria_page/assets/img/logo-footer.png"
+          alt="logo-footer"
+          width="auto"
+          height="30"
+        />
+        <p class="pt-1">© 2022 SensData.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SensData - BME280</title>
+
+    <!--style.css-->
+    <link
+      rel="stylesheet"
+      href="/Bootstrap/sensometria_page/assets/css/style-sensores.css"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/d8cbee51cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand m-0 ps-4 py-0" href="#">
+          <img
+            src="/Bootstrap/sensometria_page/assets/img/logo.png"
+            alt="logo-navbar"
+            width="auto"
+            height="60"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-dark fw-bold"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark-50">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carrusel -->
+    <div class="container w-50 p-3 carrusel">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/bme280.jpg"
+              class="d-block w-100"
+              alt="carrusel-bme280"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/bme280-02.png"
+              class="d-block w-100"
+              alt="carrusel-bme280-2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Bootstrap/sensometria_page/assets/img/bme280-03.png"
+              class="d-block w-100"
+              alt="carrusel-bme280-3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="conatiner p-0 m-0">
+      <p class="ps-3 pb-2 m-0">Caracteristicas:</p>
+      <ul>
+        <li>Voltaje de Operación: 1.8V-3.3V DC</li>
+        <li>Interfaz de comunicación: I2C o SPI (3.3V)</li>
+        <li>Rango de Presión: 300 a 1100 hPa</li>
+        <li>Resolución: 0.16 Pa</li>
+        <li>Precisión absoluta: 1 hPa</li>
+        <li>Rango de Temperatura: -40°C a 85°C</li>
+        <li>Resolución de temperatura: 0.01°C</li>
+        <li>Precisión Temperatura: 1°C</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid pt-3 text-center">
+        <img
+          src="/Bootstrap/sensometria_page/assets/img/logo-footer.png"
+          alt="logo-footer"
+          width="auto"
+          height="30"
+        />
+        <p class="pt-1">© 2022 SensData.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
