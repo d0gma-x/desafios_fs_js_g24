@@ -32,4 +32,28 @@ nav{
 
 footer{
     border-top: 6px solid #023E73;
+    background-color: #ffffff;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+/* index */
+main{
+    background-image: url(/Bootstrap/sensometria_page/assets/img/bg-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+main h1{
+    /* border: 3px solid #ffc107; */
+    text-decoration: underline;
+}
+
+main a{
+    text-decoration: none;
+    color: #ffffff;
 }
